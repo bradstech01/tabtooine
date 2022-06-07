@@ -7,7 +7,7 @@
     font-family: starWars;
   }
 
-.sky {
+#sky {
     background-color: rgb(210,180,140);
     position: fixed;
     top: 0;
@@ -17,7 +17,7 @@
     width: 100vw;
 }
 
-.ground {
+#ground {
     background-color: #a52a2a3c;
     position: fixed;
     top: 0;
@@ -30,7 +30,7 @@
     clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
 }
 
-.tatooI {
+#tatooI {
     clip-path: circle();
     position: fixed;
     top: 35%;
@@ -40,7 +40,7 @@
     background-color: rgb(223, 207, 124);
 }
 
-.tatooII {
+#tatooII {
     clip-path: circle();
     position: fixed;
     top: 55%;
